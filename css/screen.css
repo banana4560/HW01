@@ -10,6 +10,9 @@
     z-index: 1; /* 確保文字在圖片上方 */
     color: rgb(0, 0, 0); /* 根據圖片選擇文字顏色 */
 }
+#logo a{
+    color: #ffffff;
+}
 
 #logo::before {
     content: "";
@@ -26,16 +29,21 @@
     z-index: 0; /* 背景在最底層 */
 }
 
+
 #menu{
 	overflow: hidden;
 	background-color: #000000;
   }
 
- #menu li {
+  #menu li {
 	float: left;
 	display: block;
 	color: #000000;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+  }
+
+  #menu a {
+	color: #ffffff;
   }
