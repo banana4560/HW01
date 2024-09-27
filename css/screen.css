@@ -10,10 +10,15 @@
     z-index: 1; /* 確保文字在圖片上方 */
     color: rgb(0, 0, 0); /* 根據圖片選擇文字顏色 */
 }
+#BLACK{
+    color: #000000;
+}
+#white{
+    color: #ffffff;
+}
 #logo a{
     color: #ffffff;
 }
-
 #logo::before {
     content: "";
     position: absolute;
@@ -35,15 +40,15 @@
 	background-color: #000000;
   }
 
-  #menu li {
+#menu li {
 	float: left;
 	display: block;
 	color: #000000;
 	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
-  }
+    text-decoration: none;
+}
 
-  #menu a {
+#menu a {
 	color: #ffffff;
-  }
+}
